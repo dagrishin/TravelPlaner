@@ -16,7 +16,7 @@ Travel Planner is an application for planning the optimal travel route based on 
 ## Technologies used
 
 - [Python](https://www.python.org/)
-- [Django](https://www.djangoproject.com/)
+- [FastAPI](https://fastapi.tiangolo.com/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [Celery](http://www.celeryproject.org/)
 - [Geopy](https://geopy.readthedocs.io)
@@ -37,7 +37,7 @@ docker-compose up -d
 
 This will start the containers:
 
-- travel_planner - the Django application itself  
+- travel_planner - the FastAPI application itself  
 - db - PostgreSQL database
 - celery - Celery task queue
 - redis - message broker for Celery
